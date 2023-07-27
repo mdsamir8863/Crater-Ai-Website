@@ -1,0 +1,27 @@
+.card-wrapper {
+    inline-size: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 20rem;
+    text-align: center;
+
+}
+
+.card p {
+    padding: 1rem;
+}
+
+@media only screen and (max-width: 980px) {
+
+    .card {
+        margin-bottom: 2rem !important;
+        /* height: 15rem; */
+        /* align-items: center; */
+        /* width: 33rem !important; */
+    }
+}

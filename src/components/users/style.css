@@ -1,0 +1,20 @@
+.userCard{
+    width: fit-content;
+}
+.userImg {
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+}
+.profession-text{
+    font-size: 12px;
+}
+.middle{
+    height: 13rem;
+    width: 12rem;
+    margin: .5rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(25, 21, 33);
+}
+
+.fs-45 {
+  text-align: center;
+  /* color: white; */
+  color: #ffc107;
+
+  font-size: 3.8rem;
+  font-weight: bold;
+  line-height: 4.4rem;
+}
+
+.fs-10 {
+  font-size: 16px;
+}
+
+.fs-8 {
+  font-size: 13px;
+}
+
+.blurRight {
+  position: absolute;
+  height: 22rem;
+  width: 22rem;
+  top: 28rem;
+  right: 2rem;
+  /* z-index: -1; */
+  background-color: #8150b9;
+  filter: blur(192px);
+  border-radius: 50%;
+}
+
+.blur {
+  position: absolute;
+  height: 22rem;
+  width: 22rem;
+  top: 8rem;
+  left: 2rem;
+  /* z-index: -1; */
+  background-color: #8150b9;
+  filter: blur(192px);
+  border-radius: 50%;
+}
+
+.blur2 {
+  position: absolute;
+  height: 22rem;
+  width: 22rem;
+  top: 40rem;
+  left: 2rem;
+  /* z-index: -1; */
+  background-color: #8150b9;
+  filter: blur(192px);
+  border-radius: 50%;
+}
+
+.blurCrater {
+  position: absolute;
+  height: 22rem;
+  width: 22rem;
+  top: 90rem;
+  right: 2rem;
+  /* z-index: -1; */
+  background-color: #6c12d3;
+  filter: blur(292px);
+  border-radius: 50%;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+svg:hover, img {
+  cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 980px) {
+  .fs-45 {
+    text-align: center;
+    color: #ffc107;
+    font-size: 1.8rem !important;
+    font-weight: bold;
+    line-height: 2.4rem;
+  }
+
+  .fs-10 {
+    font-size: 10px;
+  }
+
+  .fs-8 {
+    font-size: 8px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .fs-45 {
+    text-align: center;
+    color: #ffc107;
+    font-size: 1.5rem !important;
+    font-weight: bold;
+    line-height: 2.4rem;
+  }
+
+}

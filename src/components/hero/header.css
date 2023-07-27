@@ -1,0 +1,114 @@
+
+.logo {
+  /* background: url(https://raw.githubusercontent.com/s1mpson/-/master/codepen/black-lives-matter/victim-collage.png); */
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtO453jRqsEPTgwkKNL_9J53z6I8RSGcpswScKCp_czQ&s);
+  background-size: 100%;
+  background-position: 50% 50%;
+  -webkit-background-clip: text;
+  color: hsla(0, 0%, 0%, 0.08);
+  animation: zoomOut 10s linear forwards infinite;
+  /* font-size: 9vw!important; */
+  font-size: 45px;
+  font-weight: bolder;
+}
+
+.colorText {
+  /* background: url(https://raw.githubusercontent.com/s1mpson/-/master/codepen/black-lives-matter/victim-collage.png); */
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtO453jRqsEPTgwkKNL_9J53z6I8RSGcpswScKCp_czQ&s);
+  background-size: cover;
+  background-position: 50% 50%;
+  -webkit-background-clip: text;
+  color: hsla(0, 0%, 0%, 0.08);
+  animation: stayColor 8s ease-in-out forwards infinite;
+  font-size: 45px;
+  /* font-size: 9vw!important; */
+}
+.hero-btn:hover{
+  cursor: pointer !important;
+  background-color: transparent !important;
+  border: 3px solid #ffc100 !important;
+  color: white !important;
+}
+.iconImg{
+  width: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes zoomOut {
+  from {
+    background-size: 100%;
+  }
+
+  to {
+    background-size: 40%;
+  }
+}
+
+@keyframes stayColor {
+  from {
+    background-size: 100%;
+  }
+
+  to {
+    background-size: 60%;
+  }
+}
+
+
+@media only screen and (max-width: 980px) {
+  .hero-section{
+    flex-wrap: wrap;
+  }
+  .left-hero {
+    width: 100% !important;
+    padding: 0 0 0 0 !important;
+  }
+  .left-hero p , .left-hero p span {
+    font-size: 1.2rem !important;
+  }
+  .right-hero {
+    width: 100% !important;
+  }
+  .right-hero img {
+    width: 100% !important;
+    margin: 3rem 0;
+  }
+  .hero-section h1, .hero-section span{
+    font-size: 2rem !important ;
+  }
+  .social-wrapper{
+    gap: 1.2rem !important;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .hero-section h1, .hero-section span {
+    font-size: 1.8rem !important;
+}
+ 
+  .blur{
+    
+    display: none !important;
+
+  }
+  .blur2{
+    top: 82rem !important;
+  }
+   .left-hero p span {
+    font-size: 14px !important;
+  }
+}

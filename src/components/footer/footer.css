@@ -1,0 +1,35 @@
+footer {
+    border-top: 5px solid #ffc107;
+    border-bottom: 5px solid #ffc107;
+    margin-top: 5rem;
+    background-color: rgb(7, 21, 23);
+
+}
+
+.footer-wrapper {
+    display: flex;
+    padding: 2rem;
+}
+
+.left-foo {
+    width: 50%;
+}
+
+.right-foo {
+    width: 50%;
+}
+
+@media only screen and (max-width: 890px) {
+    .footer-wrapper {
+        flex-wrap: wrap;
+        padding: .5rem;
+    }
+
+    .left-foo {
+        width: 100%;
+    }
+
+    .right-foo {
+        width: 100%;
+    }
+}
