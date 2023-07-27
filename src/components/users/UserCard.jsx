@@ -1,5 +1,6 @@
 import "./style.css";
 import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
+// eslint-disable-next-line react/prop-types
 const UserCard = ({name, profession,url, text}) => {
   return (
     <div>
